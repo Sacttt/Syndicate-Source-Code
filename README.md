@@ -8,6 +8,7 @@ The full source of Syndicate, a private Fortnite server project for Chapter 1 (S
 
 ## Layout
 
+- `Titanium-V2-Source/` — the historical Titanium V2 launcher and 10.40 server source, with secrets and build artifacts excluded. The launcher requires its own runtime files and locally supplied `TITANIUM_AUTH_PASSWORD`, `TITANIUM_FLTOKEN`, and `TITANIUM_CALDERA` environment variables. The extracted backend reference uses `TITANIUM_MATCHMAKING_KEY` instead of a bundled matchmaking key.
 - `SyndicateClassic/` — the former Project Tilted source (Erbium game server, launcher, Node backend, release tools), imported from `d4shyb0i/tilted-source` at `b2ba897`. See `SyndicateClassic/README.md` and `SyndicateClassic/CLAUDE.md`. Not merged with the main code yet.
 
 Syndicate:
